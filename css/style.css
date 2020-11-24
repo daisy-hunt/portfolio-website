@@ -1,0 +1,68 @@
+/*
+Colors used:
+Text Color: #313438;
+Highlight Color: #46FFBF;
+*/
+
+body{
+  margin: 20px;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #313438;
+}
+
+footer{
+  background-color: #313438;
+  color: #ffffff;
+}
+
+h1 {font-size: 2em; text-align: center;}
+
+h2 {font-size: 1.5em;}
+
+h3 {font-size: 1em;  text-transform: uppercase;}
+
+.section.hero, .section.heading {text-align: center;}
+
+img {width: 100%;}
+
+a{color: #ffffff; text-decoration: none;}
+
+a:hover, a:focus, a:active {text-decoration: underline;}
+
+.button{
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+  border-color: #313438;
+  background-color: #313438;
+  color: #ffffff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+}
+
+.button:hover, .button:focus, .button:active{
+  background-color: #ffffff;
+  color: #313438;
+  text-decoration: none;
+}
+
+.button.nav{
+  border-style: none;
+  background-color: #ffffff;
+  color: #313438;
+}
+
+.button.nav:hover, .button.nav:focus, .button.nav:active{
+  text-decoration: underline;
+}
+
+.button.social{
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
