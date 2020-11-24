@@ -3,9 +3,7 @@ Colors used:
 Text Color: #313438;
 Highlight Color: #46FFBF;
 */
-
-body{
-  margin: 20px;
+body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -14,55 +12,95 @@ body{
   color: #313438;
 }
 
-footer{
+footer {
   background-color: #313438;
   color: #ffffff;
+  text-align: center;
 }
 
-h1 {font-size: 2em; text-align: center;}
+h1 {
+  font-size: 2em;
+}
 
-h2 {font-size: 1.5em;}
+h2 {
+  font-size: 1.5em;
+}
 
-h3 {font-size: 1em;  text-transform: uppercase;}
+h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
 
-.section.hero, .section.heading {text-align: center;}
+.section.hero h1 {
+  font-size: 3em;
+}
 
-img {width: 100%;}
+.section.hero, .section.heading {
+  text-align: center;
+}
 
-a{color: #ffffff; text-decoration: none;}
+img {
+  width: 100%;
+}
 
-a:hover, a:focus, a:active {text-decoration: underline;}
+a {
+  color: #313438;
+  text-decoration: none;
+}
 
-.button{
+a:visited {
+  opacity: 0.6;
+}
+
+a:hover, a:focus, a:active, {
+  text-decoration: underline;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.button {
   display: inline-block;
-  border-style: solid;
-  border-width: thin;
-  border-color: #313438;
+  border: 1px solid #313438;
   background-color: #313438;
   color: #ffffff;
   padding: 5px 15px 5px 15px;
   border-radius: 20px;
 }
 
-.button:hover, .button:focus, .button:active{
+.button:hover, .button:focus, .button:active {
   background-color: #ffffff;
   color: #313438;
   text-decoration: none;
 }
 
-.button.nav{
-  border-style: none;
-  background-color: #ffffff;
+.nav a {
   color: #313438;
+  font-size: 1.5em;
 }
 
-.button.nav:hover, .button.nav:focus, .button.nav:active{
-  text-decoration: underline;
+.nav a:hover, .nav a:focus, .nav a:active {
+  opacity: 0.6;
 }
 
-.button.social{
+.social a {
+  border: 1px solid #313438;
   background-color: #ffffff;
-  border-radius: 50px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  border-radius: 100px;
+  padding: 12px;
+}
+
+.social a:hover, .social a:focus, .social a:active {
+  background-color: #313438;
+  color: #ffffff;
 }
