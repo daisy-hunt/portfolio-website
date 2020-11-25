@@ -3,6 +3,10 @@ Colors used:
 Text Color: #313438;
 Highlight Color: #46FFBF;
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -12,14 +16,33 @@ body {
   color: #313438;
 }
 
+header {
+  padding: 20px 0;
+  background-color: #ffffff;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 197px;
+}
+
 footer {
   background-color: #313438;
   color: #ffffff;
   text-align: center;
+  padding: 10px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -32,15 +55,7 @@ h3 {
 }
 
 .section.hero h1 {
-  font-size: 3em;
-}
-
-.section.hero, .section.heading {
-  text-align: center;
-}
-
-img {
-  width: 100%;
+  font-size: 2.5em;
 }
 
 a {
@@ -65,10 +80,6 @@ footer a:hover, footer a:focus, footer a:active {
   text-decoration: underline;
 }
 
-.logo {
-  max-width: 100px;
-}
-
 .button {
   display: inline-block;
   border: 1px solid #313438;
@@ -84,16 +95,17 @@ footer a:hover, footer a:focus, footer a:active {
   text-decoration: none;
 }
 
-.nav a {
-  color: #313438;
+nav a {
   font-size: 1.5em;
+  padding: 0 20px;
 }
 
-.nav a:hover, .nav a:focus, .nav a:active {
+nav a:hover, nav a:focus, nav a:active {
   opacity: 0.6;
 }
 
 .social a {
+  display: inline-block;
   border: 1px solid #313438;
   background-color: #ffffff;
   border-radius: 100px;
@@ -103,4 +115,42 @@ footer a:hover, footer a:focus, footer a:active {
 .social a:hover, .social a:focus, .social a:active {
   background-color: #313438;
   color: #ffffff;
+}
+
+/* Layout Styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+header .row {
+  margin: 0;
+}
+
+.section.hero, .section.heading {
+  text-align: center;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav>ul>li {
+  display: inline-block;
+}
+
+.social {
+  text-align: right;
 }
