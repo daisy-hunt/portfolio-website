@@ -25,7 +25,7 @@ header {
 }
 
 main {
-  padding-top: 197px;
+  padding-top: 112px;
 }
 
 footer {
@@ -87,34 +87,13 @@ footer a:hover, footer a:focus, footer a:active {
   color: #ffffff;
   padding: 5px 15px 5px 15px;
   border-radius: 20px;
+  margin-bottom: 30px;
 }
 
 .button:hover, .button:focus, .button:active {
   background-color: #ffffff;
   color: #313438;
   text-decoration: none;
-}
-
-nav a {
-  font-size: 1.5em;
-  padding: 0 20px;
-}
-
-nav a:hover, nav a:focus, nav a:active {
-  opacity: 0.6;
-}
-
-.social a {
-  display: inline-block;
-  border: 1px solid #313438;
-  background-color: #ffffff;
-  border-radius: 100px;
-  padding: 12px;
-}
-
-.social a:hover, .social a:focus, .social a:active {
-  background-color: #313438;
-  color: #ffffff;
 }
 
 /* Layout Styling */
@@ -124,10 +103,6 @@ nav a:hover, nav a:focus, nav a:active {
 
 .row {
   margin: 25px 0;
-}
-
-header .row {
-  margin: 0;
 }
 
 .section.hero, .section.heading {
@@ -141,16 +116,59 @@ header .row {
   max-width: 100px;
 }
 
-nav>ul {
-  list-style-type: none;
+/* Flex Adjustments*/
+
+header .row {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+}
+
+header .row.first {
+  align-items: center;
+}
+
+header .row.second {
+  flex-direction: column-reverse;
+}
+
+nav a {
+  font-size: 1.1em;
+  margin-left: 20px;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+  opacity: 0.6;
+}
+
+nav ul {
+  display: flex;
   padding: 0;
-  text-align: center;
+  margin: 0;
+  list-style-type: none;
+  align-items: flex-end;
+  /*flex-direction: column; if you like to have them in a column remove the slash and asterix*/
 }
 
-nav>ul>li {
-  display: inline-block;
+header .social {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1em;
 }
 
-.social {
-  text-align: right;
+header .social a {
+  display: flex;
+  border: 1px solid #313438;
+  border-radius: 5em;
+  background-color: #ffffff;
+  width: 2em;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.social a:hover, .social a:focus, .social a:active {
+  background-color: #313438;
+  color: #ffffff;
 }
