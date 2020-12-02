@@ -17,17 +17,17 @@
     <div class="container">
       <div class="row first">
         <div class="col-md-4">
-          <img src="img/logo.png" class="logo" alt="Daisy Hunt">
+          <a href="index.html"><img src="img/logo.png" class="logo" alt="Daisy Hunt"></a>
         </div>
         <div class="col-md-8">
           <div class="row second">
-            <nav class="column">
+            <nav class="col-md-4">
               <ul>
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
               </ul>
             </nav>
-            <div class="column social">
+            <div class="col-md-4 social">
               <a href="LINKEDIN-URL" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
@@ -47,10 +47,12 @@
   <main>
     <div class="section heading">
       <div class="container">
-        <h1>WhereTo - Responsive Web App - UX/UI Project</h1>
-        <p>WhereTo is a responsive web app that allows users to connect with people in their network and view and share recommendations for restaurants, bars and things to do. </p>
-        <p>For this project I focussed on user research, wireframes, user testing and responsive designs.</p>
-        <br>
+        <div class="reduce-width">
+          <h1>WhereTo - Responsive Web App - UX/UI Project</h1>
+          <p>WhereTo is a responsive web app that allows users to connect with people in their network and view and share recommendations for restaurants, bars and things to do. </p>
+          <p>For this project I focussed on user research, wireframes, user testing and responsive designs.</p>
+          <br>
+        </div>
         <hr>
       </div>
     </div>
@@ -130,7 +132,6 @@
           </div>
         </div>
         <div class="row">
-          <small>
           <div class="col-md-3">
             <h3>Foursquare City Guide</h3>
           </div>
@@ -151,47 +152,46 @@
             <p>The <b>SWOT analysis</b> highlighted criticisms that the brand has received in the past for allowing unsubstantiated anonymous reviews which led to a lack of trust from some users.</p>
           </div>
         </div>
-        </small>
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h2>User Interviews</h2>
+        <div class="background">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>User Interviews</h2>
+            </div>
+            <div class="col-md-9">
+              <p>I began by conducting interviews with target users to determine whether there was value in my concept. </p>
+              <p>The findings showed that people preferred to consult people they knew for recommendations and there was some lack of trust when using existing recommendations platforms, thereby confirming my hypothesis. </p>
+              <p>They also highlighted general frustrations with existing sites that I could incorporate into my designs.</p>
+            </div>
           </div>
-          <div class="col-md-9">
-            <p>I began by conducting interviews with target users to determine whether there was value in my concept. </p>
-            <p>The findings showed that people preferred to consult people they knew for recommendations and there was some lack of trust when using existing recommendations platforms, thereby confirming my hypothesis. </p>
-            <p>They also highlighted general frustrations with existing sites that I could incorporate into my designs.</p>
+          <div class="row">
+            <div class="col-md-4">
+              <h3><i class="fas fa-search"> </i>Findings</h3>
+              <ul>
+                <li>People value recommendations from friends and people they know most highly.</li>
+                <li>All participants were very likely to tell friends and family about experiences they had.</li>
+                <li>Photos are important for making decisions.</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3><i class="fas fa-heart-broken"></i> Frustrations</h3>
+              <ul>
+                <li>Recommendations not being updated regularly.</li>
+                <li>Need to be able to filter more localised than just city.</li>
+                <li>Anonymous reviews can’t always be trusted.</li>
+                <li>Not being able to link from the app to other useful services like venue website or way finding app.</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3><i class="fas fa-bullseye"></i> Goals</h3>
+              <ul>
+                <li>Need to be able to easily link to way finding app or show directions.</li>
+                <li>Useful to have all required information in one place.</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <small>
-          <div class="col-md-4">
-            <h3><i class="fas fa-search"> </i>Findings</h3>
-            <ul>
-              <li>People value recommendations from friends and people they know most highly.</li>
-              <li>All participants were very likely to tell friends and family about experiences they had.</li>
-              <li>Photos are important for making decisions.</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h3><i class="fas fa-heart-broken"></i> Frustrations</h3>
-            <ul>
-              <li>Recommendations not being updated regularly.</li>
-              <li>Need to be able to filter more localised than just city.</li>
-              <li>Anonymous reviews can’t always be trusted.</li>
-              <li>Not being able to link from the app to other useful services like venue website or way finding app.</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h3><i class="fas fa-bullseye"></i> Goals</h3>
-            <ul>
-              <li>Need to be able to easily link to way finding app or show directions.</li>
-              <li>Useful to have all required information in one place.</li>
-            </ul>
-          </div>
-        </small>
         </div>
       </div>
 
@@ -213,16 +213,13 @@
           </div>
         </div>
         <picture>
-          <source srcset="img/whereto/userpersona_1_mobile.png" media="(max-width:767px)">
-          <img src="img/whereto/userpersona_1_desktop.png" alt="User Persona 1">
+          <img src="img/whereto/userpersona_1_desktop.png" class="user-persona" alt="User Persona 1">
         </picture>
         <picture>
-          <source srcset="img/whereto/userpersona_2_mobile.png" media="(max-width:767px)">
-          <img src="img/whereto/userpersona_2_desktop.png" alt="User Persona 2">
+          <img src="img/whereto/userpersona_2_desktop.png" class="user-persona" alt="User Persona 2">
         </picture>
         <picture>
-          <source srcset="img/whereto/userpersona_3_mobile.png" media="(max-width:767px)">
-          <img src="img/whereto/userpersona_3_desktop.png" alt="User Persona 3">
+          <img src="img/whereto/userpersona_3_desktop.png" class="user-persona" alt="User Persona 3">
         </picture>
       </div>
 
@@ -244,14 +241,12 @@
             </picture>
           </div>
           <div class="col-lg-5">
-            <small>
-              <h3>User Story 1</h3>
-              <p>As a busy person with limited time to spend browsing the web, I want to have all the information about places relevant to me in one place, so that I can easily and quickly make an informed decision.</p>
-              <h3>User Story 2</h3>
-              <p>When searching for somewhere new to try, I want to be able to view places that my friends have recommended, so that I can decide based on reviews that I trust.</p>
-              <h3>User Story 3</h3>
-              <p>As a social person with different groups of friends, I want to be able to easily post reviews of places I have enjoyed to my network, so my friends and family can see places I have recommended.</p>
-            </small>
+            <h3>User Story 1</h3>
+            <p>As a busy person with limited time to spend browsing the web, I want to have all the information about places relevant to me in one place, so that I can easily and quickly make an informed decision.</p>
+            <h3>User Story 2</h3>
+            <p>When searching for somewhere new to try, I want to be able to view places that my friends have recommended, so that I can decide based on reviews that I trust.</p>
+            <h3>User Story 3</h3>
+            <p>As a social person with different groups of friends, I want to be able to easily post reviews of places I have enjoyed to my network, so my friends and family can see places I have recommended.</p>
           </div>
         </div>
       </div>
@@ -280,50 +275,50 @@
       </div>
 
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h2>Usability Testing</h2>
+        <div class="background">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>Usability Testing</h2>
+            </div>
+            <div class="col-md-9">
+              <p>Before progressing any further it was important to conduct user testing of the initial designs. This proved to be one of the most valuable stages of the project and cemented the benefit of early user testing.</p>
+            </div>
           </div>
-          <div class="col-md-9">
-            <p>Before progressing any further it was important to conduct user testing of the initial designs. This proved to be one of the most valuable stages of the project and cemented the benefit of early user testing.</p>
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Goal</h3>
+            </div>
+            <div class="col-md-9">
+              <ul>
+                <li>Observe and measure any errors that are made, whether the users understand the project, as well as how they complete basic functions such as searching for recommendations, adding friends and posting a review.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Results</h3>
+            </div>
+            <div class="col-md-9">
+              <ul>
+                <li>The majority of users tried to add friends using the menu and ‘My friends’ feature.</li>
+                <li>The majority of users wanted to post a review from the place detail page. </li>
+                <li>Few users navigated straight to the plus button to investigate it’s functionality.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Solution</h3>
+            </div>
+            <div class="col-md-9">
+              <ul>
+                <li>Remove the plus button as it is clear it does not provide the most clear and straightforward solution for users.</li>
+                <li>Allow users to add friends from the ‘Friends’ page</li>
+                <li>Ensure reviews can be added from the page details page.</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <small>
-        <div class="row">
-          <div class="col-md-3">
-            <h3>Goal</h3>
-          </div>
-          <div class="col-md-9">
-            <ul>
-              <li>Observe and measure any errors that are made, whether the users understand the project, as well as how they complete basic functions such as searching for recommendations, adding friends and posting a review.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <h3>Results</h3>
-          </div>
-          <div class="col-md-9">
-            <ul>
-              <li>The majority of users tried to add friends using the menu and ‘My friends’ feature.</li>
-              <li>The majority of users wanted to post a review from the place detail page. </li>
-              <li>Few users navigated straight to the plus button to investigate it’s functionality.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <h3>Solution</h3>
-          </div>
-          <div class="col-md-9">
-            <ul>
-              <li>Remove the plus button as it is clear it does not provide the most clear and straightforward solution for users.</li>
-              <li>Allow users to add friends from the ‘Friends’ page</li>
-              <li>Ensure reviews can be added from the page details page.</li>
-            </ul>
-          </div>
-        </div>
-      </small>
       </div>
 
       <div class="container">
@@ -390,8 +385,7 @@
           <div class="col-md-4">
             <h3>Logo</h3>
             <picture>
-              <source srcset="img/whereto/logo_mobile.png" media="(max-width:767px)">
-              <img src="img/whereto/logo_desktop.png" alt="Logo">
+              <img src="img/whereto/logo_desktop.png" class="whereto-logo" alt="Logo">
             </picture>
           </div>
         </div>
@@ -485,10 +479,6 @@
       </div>
 
       <div class="container">
-        <picture>
-          <source srcset="img/whereto/logo_mobile.png" media="(max-width:767px)">
-          <img src="img/whereto/logo_desktop.png" alt="WhereTo Logo">
-        </picture>
         <div class="row">
           <div class="col-md-3">
             <h2>Retrospective</h2>
