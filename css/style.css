@@ -253,9 +253,6 @@ header .social a {
 
 .about .row {
   display: flex;
-}
-
-.about .row {
   flex-direction: column-reverse;
 }
 
