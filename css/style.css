@@ -22,7 +22,6 @@ body {
 
 header {
   background-color: #ffffff;
-  position: fixed;
   display: inline-block;
   width: 100%;
 }
@@ -416,6 +415,10 @@ Small devices (< 640px)
   padding: 15px 10px;
 }
 
+main {
+  padding-top: 40px;
+}
+
 }
 
 /* ==============================
@@ -424,6 +427,10 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   .bottomnav-social {
   display: none;
+}
+
+header {
+  position:fixed;
 }
 
   header .row .second {
