@@ -21,9 +21,7 @@ body {
 }
 
 header {
-  padding: 20px 0;
   background-color: #ffffff;
-  position: fixed;
   display: inline-block;
   width: 100%;
 }
@@ -121,6 +119,41 @@ footer a:hover, footer a:focus, footer a:active {
   color: #313438;
 }
 
+/* Nav Adjustments */
+.topnav {
+  position: sticky;
+  overflow: hidden;
+  transition: 0.4s;
+  top: 0;
+  z-index: 99;
+  padding: 20px 0;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav-centered {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-social {
+  float: right;
+  padding: 15px 0;
+}
+
+.bottomnav-social a {
+  padding: 10px;
+  font-size: 20px;
+}
+
 /* Layout Styling */
 .container {
   padding: 0 15px;
@@ -205,11 +238,11 @@ header .row.second {
 
 nav a {
   font-size: 1.1em;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   text-decoration: none;
 }
 
-nav a:hover, nav a:focus, nav a:active {
+#topnav a:hover, #topnav a:focus, #topnav a:active {
   opacity: 0.6;
   color: #313438;
 }
@@ -359,9 +392,47 @@ CSS Animation
 }
 
 /* ==============================
+Small devices (< 640px)
+================================= */
+@media only screen and (max-width: 640px) {
+  .topnav a {
+    padding: 0;
+}
+
+  .topnav-social {
+  display: none;
+}
+
+.topnav-centered {
+  float: right;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+}
+
+.topnav-centered a {
+  padding: 15px 10px;
+}
+
+main {
+  padding-top: 40px;
+}
+
+}
+
+/* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .bottomnav-social {
+  display: none;
+}
+
+header {
+  position:fixed;
+}
+
   header .row .second {
     flex-direction: row;
     align-items: flex-end;
@@ -380,10 +451,6 @@ Medium devices (640px and larger)
 
   nav a {
     margin: 0;
-  }
-
-  nav li {
-    padding: 0 10px;
   }
 
   .reduce-width {
