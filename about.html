@@ -19,11 +19,11 @@
           <a href="index.html"><img src="img/logo.png" class="logo" id="logo" alt="Daisy Hunt"></a>
             <nav class="topnav-centered" id="navlinks">
               <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#start">Work</a></li>
+                <li><a href="about.html"><span>About</span></a></li>
               </ul>
             </nav>
-            <div class="topnav-social">
+            <div class="topnav-social" id="sociallinks">
               <a href="LINKEDIN-URL" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
@@ -42,21 +42,23 @@
     <div class="section about">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-7">
-            <h1>A bit about me...</h1>
-            <p>Hi, I’m a user interface designer who has recently transitioned from an administration/customer service background. I’ve decided to make a career change as I want to challenge my creative passions and engage my eye for detail. I’m
+          <div class="col-md-7 col-lg-7">
+            <h1><span>A bit about me...</span></h1>
+            <p>I’m a user interface designer who has recently transitioned from an administration/customer service background. I’ve decided to make a career change as I want to challenge my creative passions and engage my eye for detail. I’m
               passionate about the blend of design and technology and I want to design products that positively impact how people interact with the world around them.</p>
             <p>My experience across hospitality and customer relations has taught me how to understand customer motivations and frustrations, and I want to utilise this to build products that help users achieve their goals. </p>
             <p>I’m currently based in London but I love to travel and experience new things. After I graduated I spent a year living in New York, and I recently hit 30 countries before I turned 30. To relax I enjoy watching sports documentaries and I
               love to read - I’m forever running out of space on my bookshelves.</p>
             <p>I’m only at the start of my journey in this creative field but I am loving every second. I’m ready for a challenge and can’t wait to explore and create more. I’m available for full time and freelance opportunities. </p>
           </div>
-          <div class="col-md-6 col-lg-5">
+          <div class="col-md-5 col-lg-5">
             <picture>
               <source srcset="img/profile_image.jpg" media="(max-width:767px)">
               <img src="img/profile_image.jpg" class="profile" alt="ProfileImage">
             </picture>
-            <br><a href="files/CV.pdf" class="button cv" target="_blank">View my Resume</a>
+              <div class="center">
+                <br><a href="files/CV.pdf" class="button cv" target="_blank">View my Resume</a>
+              </div>
           </div>
         </div>
       </div>
@@ -64,13 +66,9 @@
 
     <div class="section skills">
       <div class="container">
-        <h1>Skills</h1>
-        <div class="tab">
-          <button class="tablinks" onclick="">UX</button>
-          <button class="tablinks" onclick="">UI</button>
-          <button class="tablinks" onclick="">Frontend</button>
-        </div>
-        <div id="UX" class="tabcontent">
+        <h1><span>Skills</span></h1>
+        <div class="row">
+        <div class="col-md-4">
           <h3>UX</h3>
           <ul>
             <li>User Research</li>
@@ -80,7 +78,7 @@
           </ul>
         </div>
 
-        <div id="UI" class="tabcontent">
+        <div class="col-md-4">
           <h3>UI</h3>
           <ul>
             <li>Mid-Fidelity Wireframes</li>
@@ -90,14 +88,17 @@
           </ul>
         </div>
 
-        <div id="Frontend" class="tabcontent">
+        <div class="col-md-4">
           <h3>Frontend</h3>
           <ul>
             <li>HTML</li>
-            <li>tbc</li>
+            <li>CSS</li>
+            <li>CSS Animation</li>
+            <li>JavaScript</li>
+            <li>GitHub</li>
           </ul>
         </div>
-
+        </div>
       </div>
     </div>
   </main>
@@ -107,7 +108,7 @@
       <i class="fas fa-paper-plane"></i>
       <h2>Get in Touch</h2>
       <p>If you have any questions or want to reach out, please send an email to
-        <a href="mailto:daisy@daisyhunt.com">daisy [at] daisyhunt.com</a>
+        <a href="mailto:daisy@daisyhunt.com" class="email">daisy [at] daisyhunt.com</a>
       </p>
       <div class="bottomnav-social">
         <a href="LINKEDIN-URL" target="_blank">
@@ -117,7 +118,7 @@
           <i class="fab fa-behance-square"></i>
         </a>
       </div>
-      <p>Copyright Daisy Hunt 2020</p>
+      <p><small>Copyright Daisy Hunt 2021</p>
     </div>
   </footer>
 
