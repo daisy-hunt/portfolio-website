@@ -38,6 +38,7 @@ footer {
   padding: 25px 0 10px 0;
   display: inline-block;
   width: 100%;
+  margin-top: 50px;
 }
 
 img {
@@ -51,15 +52,18 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3em;
-  font-weight: 400;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  color: #6978ff;
+  font-weight: 700;
+  padding-top: 20px;
 }
 
 h3 {
   font-size: 1em;
   text-transform: uppercase;
-  color: #6978ff;
   font-weight: 400;
+  color: #6978ff;
 }
 
 .section.hero h1 {
@@ -143,10 +147,6 @@ a:hover, a:focus, a:active {
   margin-top: 80px;
 }
 
-h3 i {
-  padding-right: 5px;
-}
-
 
 /* ==============================
 Nav Bar
@@ -216,6 +216,10 @@ span {
 /* ==============================
 Footer
 ================================= */
+footer h2 {
+  color: #ffffff;
+}
+
 footer a {
   color: #ffffff;
   text-decoration: none;
@@ -276,8 +280,12 @@ Project pages
   margin: 0;
 }
 
+.background h2 {
+  color: #46ffbf;
+}
+
 .background h3 {
-  color: #ffffff;
+  color: #46ffbf;
 }
 
 hr {/* separater line */
@@ -290,6 +298,10 @@ hr {/* separater line */
 
 .user-persona {
   max-width: 500px;
+}
+
+.user-flow {
+  max-width: 700px;
 }
 
 /* Flex Adjustments*/
@@ -311,6 +323,66 @@ hr {/* separater line */
   color: #ffffff;
   cursor: pointer;
   padding: 15px;
+}
+
+.numbered-list h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #6978ff;
+  color: #6978ff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  margin-bottom: -10px;
+}
+
+.background .numbered-list h3 {
+  border: 2px solid #46ffbf;
+  color: #46ffbf;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60PX;
+    font-size: 2em;
+    font-weight: 600;
+}
+.divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #46ffbf;
+}
+.divider::before {
+    margin-right: .5em;
+}
+.divider::after {
+    margin-left: .5em;
+}
+
+.fa-quote-left {
+  color: #6978ff;
+  opacity: 50%;
+  padding-right: 10px;
+}
+
+.fa-quote-right {
+  color: #6978ff;
+  opacity: 50%;
+  padding-left: 5px;
+}
+
+h3 i {
+  padding-right: 5px;
+  color: #46ffbf;
 }
 
 /* ==============================
@@ -402,6 +474,15 @@ header {
     margin: auto;
   }
 
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+    text-align: right;
+  }
+
   .col-md-3 {
     width: 25%;
     text-align: right;
@@ -429,7 +510,14 @@ header {
 
   .col-md-9 {
     width: 75%;
-    margin-top: 6px;
+  }
+
+  .col-md-10 {
+    width: 83.33%;
+  }
+
+  .col-md-11 {
+    width: 91.66%;
   }
 
   [class*="col-"] {
