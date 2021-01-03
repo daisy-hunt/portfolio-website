@@ -19,11 +19,11 @@
           <a href="index.html"><img src="img/logo.png" class="logo" id="logo" alt="Daisy Hunt"></a>
             <nav class="topnav-centered" id="navlinks">
               <ul>
-                <li><a href="index.html">Work</a></li>
+                <li><a href="index.html#start">Work</a></li>
                 <li><a href="about.html">About</a></li>
               </ul>
             </nav>
-            <div class="topnav-social">
+            <div class="topnav-social" id="sociallinks">
               <a href="LINKEDIN-URL" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
@@ -38,11 +38,13 @@
         </div>
   </header>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
   <main>
     <div class="section heading">
       <div class="container">
         <div class="reduce-width">
-          <h1>WhereTo - Responsive Web App - UX/UI Project</h1>
+          <h1><span>WhereTo - Responsive Web App - UX/UI Project</span></h1>
           <p>WhereTo is a responsive web app that allows users to connect with people in their network and view and share recommendations for restaurants, bars and things to do. </p>
           <p>For this project I focussed on user research, wireframes, user testing and responsive designs.</p>
           <br>
@@ -103,7 +105,7 @@
             <p>For the project I wanted to solve the users’ problems using the best possible design solutions. I therefore combined user-centred design with the design thinking process. User testing was conducted regularly throughout the process.</p>
             <picture>
               <source srcset="img/whereto/approach_mobile.jpg" media="(max-width:767px)">
-              <img src="img/whereto/approach_desktop.jpg" alt="Research. Define. Ideate. Design.">
+              <img src="img/whereto/approach_desktop.jpg" alt="Research. Define. Ideate. Design." data-scroll>
             </picture>
           </div>
         </div>
@@ -125,7 +127,7 @@
             <p>The following services were analysed to gain an understand of the current market and help develop the concept for the app. </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-scroll>
           <div class="col-md-3">
             <h3>Foursquare City Guide</h3>
           </div>
@@ -136,7 +138,7 @@
             <p><b>UX analysis</b> identified positives in the search function and tab layout, but highlighted inconsistencies in navigation that hampered ease of use. </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-scroll>
           <div class="col-md-3">
             <h3>TripAdvisor</h3>
           </div>
@@ -149,7 +151,7 @@
       </div>
 
       <div class="container">
-        <div class="background">
+        <div class="background" data-scroll>
           <div class="row">
             <div class="col-md-3">
               <h2>User Interviews</h2>
@@ -231,10 +233,10 @@
           <div class="col-lg-7">
             <picture>
               <source srcset="img/whereto/user_flow_mobile.png" media="(max-width:767px)">
-              <img src="img/whereto/user_flow_desktop.png" alt="User Flow Diagram">
+              <img src="img/whereto/user_flow_desktop.png" alt="User Flow Diagram" data-scroll class="left-animation">
             </picture>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-scroll>
             <h3>User Story 1</h3>
             <p>As a busy person with limited time to spend browsing the web, I want to have all the information about places relevant to me in one place, so that I can easily and quickly make an informed decision.</p>
             <h3>User Story 2</h3>
@@ -269,7 +271,7 @@
       </div>
 
       <div class="container">
-        <div class="background">
+        <div class="background" data-scroll>
           <div class="row">
             <div class="col-md-3">
               <h2>Usability Testing</h2>
@@ -362,21 +364,21 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-scroll>
             <h3>Typography</h3>
             <picture>
               <source srcset="img/whereto/typography_mobile.png" media="(max-width:767px)">
               <img src="img/whereto/typography_desktop.png" alt="Typography">
             </picture>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-scroll>
             <h3>Colour Palette</h3>
             <picture>
               <source srcset="img/whereto/colour_mobile.png" media="(max-width:767px)">
               <img src="img/whereto/colour_desktop.png" alt="Colour Palette">
             </picture>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-scroll>
             <h3>Logo</h3>
             <picture>
               <img src="img/whereto/logo_desktop.png" class="whereto-logo" alt="Logo">
@@ -417,7 +419,7 @@
           <div class="col-md-6">
             <picture>
               <source srcset="img/whereto/ab_quotes_mobile.png" media="(max-width:767px)">
-              <img src="img/whereto/ab_quotes_desktop.png" alt="Quotes">
+              <img src="img/whereto/ab_quotes_desktop.png" alt="Quotes" data-scroll>
             </picture>
           </div>
         </div>
@@ -451,21 +453,21 @@
         </picture>
       </div>
 
-      <div class="container">
+      <div class="container" data-scroll>
         <picture>
           <source srcset="img/whereto/whereto_mockups1_mobile.png" media="(max-width:767px)">
           <img src="img/whereto/whereto_mockups1_desktop.png" alt="WhereTo Mockups">
         </picture>
       </div>
 
-      <div class="container">
+      <div class="container" data-scroll>
         <picture>
           <source srcset="img/whereto/whereto_mockups2_mobile.png" media="(max-width:767px)">
           <img src="img/whereto/whereto_mockups2_desktop.png" alt="WhereTo Mockups">
         </picture>
       </div>
 
-      <div class="container">
+      <div class="container" data-scroll>
         <picture>
           <source srcset="img/whereto/whereto_mockups3_mobile.png" media="(max-width:767px)">
           <img src="img/whereto/whereto_mockups3_desktop.png" alt="WhereTo Mockups">
@@ -473,6 +475,7 @@
       </div>
 
       <div class="container">
+        <div class="background">
         <div class="row">
           <div class="col-md-3">
             <h2>Retrospective</h2>
@@ -496,10 +499,11 @@
             <p>As a UI Designer this project gave me a great insight into UX design. It drove home the importance of always establishing exactly who the expected user is and then keeping them at the forefront of the design process. </p>
           </div>
         </div>
-        <div class="row">
-          <div class="center">
-            <h2>Thank you for reading!</h2>
-          </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="center">
+          <h2 data-scroll>Thank you for reading!</h2>
         </div>
       </div>
 
@@ -511,7 +515,7 @@
       <i class="fas fa-paper-plane"></i>
       <h2>Get in Touch</h2>
       <p>If you have any questions or want to reach out, please send an email to
-        <a href="mailto:daisy@daisyhunt.com">daisy [at] daisyhunt.com</a>
+        <a href="mailto:daisy@daisyhunt.com" class="email">daisy [at] daisyhunt.com</a>
       </p>
       <div class="bottomnav-social">
         <a href="LINKEDIN-URL" target="_blank">
@@ -521,7 +525,7 @@
           <i class="fab fa-behance-square"></i>
         </a>
       </div>
-      <p>Copyright Daisy Hunt 2020</p>
+      <p><small>Copyright Daisy Hunt 2021</p>
     </div>
   </footer>
 
@@ -530,6 +534,15 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  <script src="js/scripts2.js"></script>
+
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+  <script>
+    ScrollOut({
+      once: true
+    });
+  </script>
 </body>
 
 </html>
