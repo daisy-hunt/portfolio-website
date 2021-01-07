@@ -58,7 +58,7 @@ h1 {
 h2 {
   font-size: 1.15em;
   text-transform: uppercase;
-  color: #6978ff;
+  color: #ff5e97;
   font-weight: 700;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -68,7 +68,7 @@ h3 {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 400;
-  color: #6978ff;
+  color: #ff5e97;
 }
 
 .section.hero h1 {
@@ -242,10 +242,7 @@ span {
   background-color: #46ffbf;
 }
 
-p span {
-  color: #6978ff;
-  background-color: #ffffff;
-}
+
 
 /* ==============================
 Footer
