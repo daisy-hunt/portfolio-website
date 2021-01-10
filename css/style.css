@@ -69,6 +69,13 @@ h3 {
   text-transform: uppercase;
   font-weight: 400;
   color: #eb0053;
+  margin-top: 0;
+}
+
+p {
+  max-width: 900px;
+  margin: auto;
+  line-height: 30px;
 }
 
 .section.hero h1 {
@@ -326,6 +333,10 @@ Project pages
   color: #46ffbf;
 }
 
+.background ul {
+  margin-top: 0;
+}
+
 hr {
   /* separater line */
   max-width: 60%;
@@ -542,11 +553,12 @@ Small devices (< 640px)
   }
 
   .numbered-list {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   .background .numbered-list {
     padding-bottom: 0;
+    padding-top: 20px;
   }
 }
 
