@@ -76,6 +76,7 @@ p {
   max-width: 900px;
   margin: auto;
   line-height: 30px;
+  padding-bottom: 10px;
 }
 
 .section.hero h1 {
@@ -437,6 +438,10 @@ hr {
 h3 i {
   padding-right: 5px;
   color: #46ffbf;
+}
+
+.fa-mobile-alt {
+  color: #eb0053;
 }
 
 /* ==============================
