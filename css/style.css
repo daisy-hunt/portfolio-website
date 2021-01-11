@@ -28,7 +28,8 @@ header {
 }
 
 main {
-  padding-top: 125px;
+  padding-top: 140px;
+  padding-bottom: 30px;
 }
 
 footer {
@@ -38,7 +39,6 @@ footer {
   padding: 25px 0 10px;
   display: inline-block;
   width: 100%;
-  margin-top: 50px;
 }
 
 .full-background {
@@ -167,7 +167,7 @@ a:active {
 }
 
 .row {
-  margin: 25px 0;
+  margin: 25px 0 0;
 }
 
 .section.hero,
@@ -187,7 +187,8 @@ a:active {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 90px;
+  padding: 0;
 }
 
 .scroll {
@@ -565,6 +566,10 @@ Small devices (< 640px)
     padding-bottom: 0;
     padding-top: 20px;
   }
+
+  .logo {
+    padding: 10px;
+  }
 }
 
 /* ==============================
@@ -706,5 +711,16 @@ Large devices (1024px or larger)
 
   nav li {
     padding: 0 30px;
+  }
+
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .wrapper {
+    background: #fff;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
