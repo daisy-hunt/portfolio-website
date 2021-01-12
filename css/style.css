@@ -308,6 +308,10 @@ About page
   margin-right: auto;
 }
 
+.pink {
+  color: #eb0053;
+}
+
 /* ==============================
 Project pages
 ================================= */
@@ -460,6 +464,10 @@ h3 i {
 .fa-paper-plane {
   color: #46ffbf;
   font-size: 20px;
+}
+
+.no-padding {
+  padding-top: 0;
 }
 
 /* ==============================
