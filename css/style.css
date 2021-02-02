@@ -496,10 +496,14 @@ blockquote::before {
   left: -60px;
   font-size: 7em;
   font-weight: bolder;
-  z-index: 0;
+  z-index: -1;
   color: #46ffbf;
   opacity: 0.5;
   font-family: Andale mono;
+}
+
+blockquote::after {
+  content: no-close-quote;
 }
 
 .cite {
@@ -637,7 +641,6 @@ Small devices (< 640px)
   .quote {
     max-width: 80%;
   }
-
 }
 
 /* ==============================
