@@ -512,6 +512,29 @@ blockquote::after {
   padding-bottom: 0;
 }
 
+.funds-green {
+  color: #44cf6c !important;
+}
+
+.funds-pink {
+  color: #ff70a7 !important;
+}
+
+.funds-blue {
+  color: #5cd1ff !important;
+}
+
+.funds-yellow {
+  color: #ffd93b !important;
+}
+
+.fa-thumbs-up,
+.fa-heart,
+.fa-smile-beam,
+.fa-compass {
+  padding: 10px 0 20px;
+}
+
 /* ==============================
 CSS Animation
 ================================= */
